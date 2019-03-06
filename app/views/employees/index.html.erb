@@ -1,0 +1,5 @@
+<h1>Da Employees</h1>
+
+<% @employees.each do |em| %>
+<li><%=link_to em.first_name + " " + em.last_name, em %></li>
+<% end %>
